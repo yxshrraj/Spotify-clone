@@ -1,0 +1,113 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: lightsalmon;
+}
+nav{
+    font-family:'Times New Roman', Times, serif;
+    display: flex;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none ;
+    height: 55px;
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    
+    
+}
+nav ul li{
+    padding: 0px 12px;
+    
+}
+.brand img{
+     width: 50px;
+    padding: 0px 9px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 70vh;
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url(travisscott.jpg);
+}
+.bottom
+{
+    background-color: black;
+    color: #fff;
+    position: sticky;
+    height: 100px;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.icons{
+    margin-top: 14px;
+}
+.icons i{
+    cursor: pointer;
+}
+#myProgressBar
+{
+    width:80vw;
+    cursor: pointer;
+}
+.songItem{
+    height: 56px;
+    display: flex;
+    background-color: white;
+    
+    color: black;
+    margin:12px 0px;
+    
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+
+}
+.songItem img{
+    width: 80px;
+    margin: 0 23px;
+    border-radius: 30px;
+}
+.timestamp{
+    
+    margin:0 23px;
+}
+.timestamp i{
+    cursor: pointer;
+
+}
+.songItemcontainer{
+    margin-top: 50px;
+}
+.songinfo
+{
+position: absolute;
+left:9vw;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.songinfo img{
+    opacity:0;
+    transition: opacity 0.4s ease-in;
+} 
